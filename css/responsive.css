@@ -1,0 +1,192 @@
+/* ------------Mobile----------- */
+@media screen and (min-width: 360px) and (max-width: 667px) {
+    
+    body, html {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    header {
+        background-size: cover;
+        background-position: center;
+        height: 670px;
+        text-align: start;
+    }
+    .logo {
+        margin: 0 20px;
+        margin-top: -10px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h1, .title p {
+        padding: 0 40px;
+        text-align:left;
+    }
+    h3 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+    h4 {
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+    
+    /* ---- Nav ---- */
+    nav .container {
+        flex-direction: row;
+    }
+    nav {
+        display: flex;
+        padding-top: 12px;
+        width: 100%;
+    }
+    nav ul {
+        padding-left: 0;
+     }
+    .nav-list, .like {
+        display: none;
+    }
+    .nav-account {
+        margin-left: 11px;
+    }
+    .nav-account li {
+        margin-right: 30px;   
+        padding: 0;        
+      }
+    .rachida-text {
+        display: none;        
+      }
+    .bars {
+        display: block;
+        color: white;
+        font-size: 2rem;
+        padding-left: 15px;
+        margin-top: -6px;
+        width: 65px;
+    }
+    header, section, .category-ctn {
+        margin-bottom: 50px;
+    }
+    /* ----btn ---- */
+    header .btn {
+        margin: 0 30px 50px;
+    }
+    .btn-center {
+        padding: 5px 0;
+        left: 15%;
+    }
+    
+    /* ---- Header ---- */
+    header {
+        height: 50%;
+        margin-bottom: 50px;
+    }
+    .title {
+        padding-top: 130px;
+    }
+    .title p {
+        font-size: 1.3rem;
+        margin-bottom: 50px;
+    }
+    .account-ctn-portable {
+        visibility: visible;
+    }
+    .account-ctn {
+        display: none;
+    }
+    
+    /* ---- CATEGORIES ---- */
+    .recipe img, .cosmetics img, .grocery-stores img, .decoration img{
+        margin-bottom: -5px;
+        width: 100%;
+    }
+    .txt-overlay, .category-center:hover img  {
+        display: none;
+    }
+    .recipe, .cosmetics, .grocery-stores, .decoration {
+        height: 50%;
+        width: 100%;
+    }
+    .category-center {
+        margin: 30px 0;
+        width: 100%;
+    }
+    .art-table img {
+        width: 100%
+    }
+    .txt-overlay, .category-center:hover img {
+        display: block;
+    }
+
+    /* Overlay */
+    .txt-overlay {
+        top: 66%;
+        left: 50%;
+        height: 340px;
+        width: 280px;
+    }
+    .txt-overlay p {
+        font-size: 1.6rem;
+        height: 100%;
+        padding: 60px 30px 0;
+        width: 100%;
+    }
+    
+     /* ---- ARTICLES ---- */
+    .shopping img {
+        width: 100%;
+    }
+    .product {
+        margin-bottom: 15px;
+    }
+
+    /* ---- PROMOTION ---- */
+    .ctn-img-promo {
+        flex-flow: wrap;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .ctn-img-promo img {
+          width: 25%;
+    }
+
+    /* ---- AVANTAGES ---- */
+    .benefits-ctn {
+        align-items: end;
+        flex-direction: column;
+        margin-bottom: 80px
+    }
+      .benefits-ctn img {
+        width: 80%;
+    }
+    .samples {
+        padding: 10px;
+    }
+    .ancre a {
+        bottom: 14.5%;
+        left: 78%;
+        padding: 0 5px;
+    }
+
+    /* ---- NEWSLETTER ---- */
+    .newsletter {
+        flex-direction: column;
+        height: 100%;
+    }
+    .inscription {
+        flex-direction: column;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    #newsletter {
+        margin: 0 0 20px 0;
+    }
+
+}

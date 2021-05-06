@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ecoco</title>
+
+  <!-- Style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+   <!-- Responsive -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!--Icons-->
+  <script src="https://kit.fontawesome.com/dbecfaca77.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="sunny">
+  <a href="" id="ancre"></a> <!--retour ancre-->
+
+    <!-- navigation -->
+    <nav>
+      <div class="bars"><i class="fas fa-bars"></i></div> <!-- Menu portable -->
+       <div class="container">
+        <div class="nav-list">
+           <ul>
+             <li><a href="#">Boutique</a></li>
+             <li><a href="#">Best sellers</a></li>
+             <li><a href="#">Exclusivités web</a></li>
+          </ul>
+        </div>
+        <a href="#ancre"><img class="logo" src="image/logo.png" alt="logo dans navigation"></a>
+        <div class="nav-account">
+          <ul>
+              <li class="account-ctn-portable"> 
+                <a href="#"><i class="fas fa-user"></i></a>
+            </li>
+             <li class="account-ctn">
+               <a href="#"><i class="fas fa-user"></i>Bonjour Rachida</a>
+            </li>
+             <li class="like">
+               <a href="#"><i class="fas fa-heart"></i>16</a>
+            </li>
+             <li class="panier">
+               <a href="#"><i class="fas fa-shopping-cart"></i>7</a>
+            </li>
+          </ul>
+         </div>
+
+       </div>
+    </nav>
+    <!-- titre -->
+    <div class="head">
+      <div class="title">
+        <h1>Voyez la vie à la noix de coco</h1>
+        <p>sous toutes ses formes et 100% naturel</p>
+      </div>
+      <!-- bouton -->
+        <a href="#" class="btn">Je découvre</a>
+    </div>
+  </header>
+
+  <main>
+        
+      <!-- Ancre -->
+      <div class="ancre"><a href="#ancre"><img src="image/ancre.png" alt=""></a></div> <!--Ancre-->
+
+  <!--- CATEGORIES --> 
+      <section class="container category-ctn">
+        <!-- colonne gauche -->
+        <div class="left-category">
+          <!--  recette -->
+          <div class="recipe img-overlay category">
+            <img src="image/img-cat-cuisine.png" alt="image recette">
+            <a class="btn btn-secondary" href="#">Recette</a>
+          </div>
+          <!--  cosmétique -->
+          <div class="cosmetics img-overlay category">
+            <img src="image/img-cat-cosmetique.png" alt="image cosmétique">
+            <a class="btn btn-secondary" href="#">Cosmétique</a>
+          </div>
+        </div>
+        <!-- centre -->
+        <!-- art de talbe -->
+        <div class="category-center category">
+          <div class="art-table">
+            <img src="image/img-cat-art-table-centre.png" alt="" class="bottom">
+            <div class="txt-overlay"> 
+              <p class="text">Ayez <br> plus d'inspiration avec nos nouvelles collections</p>
+            </div>
+            <a class="btn btn-secondary btn-center" href="#">Art de table</a>
+          </div>
+        </div>
+        <!-- colonne droite -->
+        <!-- épicerie -->
+        <div class="right-category">
+          <div class="grocery-stores img-overlay category">
+            <img src="image/img-cat-epicerie.png" alt="image épicerie">
+            <a class="btn btn-secondary" href="#">Epicerie</a>
+          </div>
+          <!-- décoration -->
+          <div class="decoration img-overlay category">
+            <img src="image/img-cat-deco.png" alt="image décoration">
+            <a class="btn btn-secondary" href="#">Déco</a>
+          </div>
+        </div>
+      </section>
+
+
+  <!--- ARTICLES -->
+      <section class="container shopping">
+        <!-- Noix de coco -->
+        <article class="product">
+          <div class="coconut product-ctn">
+            <img src="image/img-art-coco.png" alt="image article coco">
+              <h3>Coco de Madagascar</h3>
+              <a href="" class="favorite"><i class="far fa-heart"></i></a>
+              <p class="paraph">€ 4<span class="dot">.</span> 50</p>
+          </div>
+            <button class="btn btn-shopping" type="button">J'ajoute au panier</button>
+        </article>
+        <!-- Savon lait coco -->
+        <article class="product">
+        <div class="soap product-ctn">
+          <img src="image/img-art-savon.png" alt="image article coco">
+            <h3>Savon au lait de coco</h3>
+            <a href="" class="favorite"><i class="far fa-heart"></i></a>
+            <p class="paraph">€ 7<span class="dot">.</span>90</p>
+        </div>
+          <button class="btn btn-shopping" type="button">J'ajoute au panier</button>
+        </article>
+          <!-- Lot 3 bols -->
+        <article class="product">
+          <div class="bowls product-ctn">
+            <img src="image/img-art-apero.png" alt="image article coco">
+            <h3>Lot de 3 bols apéro</h3>
+            <a href="" class="favorite"><i class="far fa-heart"></i></a>
+            <p class="paraph">€ 17<span class="dot">.</span>95</p>
+          </div>
+            <button class="btn btn-shopping" type="button">J'ajoute au panier</button>
+        </article>
+      </section>
+
+
+  <!--- PROMOTION -->
+      <section class="promotion">
+        <div class="container promo-text-and-btn">
+          <div>
+            <h2>Rejoignez la communauté @ecoco sur Instagram</h2>
+            <p class="paraph">Vous trouverez de nombreux conseils et idées proposés par les ecocoïstes  #balancetoncoco<span class="dot">.</span></p>
+          </div>
+          <input class="btn btn-promo" type="button" value="J'y vais"> <!-- où écrit : C'est içi -->
+        </div>
+        <div class="ctn-img-promo">
+          <img src="image/promo1.jpg" alt="images de instagram 1">
+          <img src="image/promo2.jpg" alt="images de instagram 2">
+          <img src="image/promo3.jpg" alt="images de instagram 3">
+          <img src="image/promo4.jpg" alt="images de instagram 4">
+          <img src="image/promo5.jpg" alt="images de instagram 5">
+          <img src="image/promo6.jpg" alt="images de instagram 6">
+          <img src="image/promo7.jpg" alt="images de instagram 7">
+          <img src="image/promo8.jpg" alt="images de instagram 8">
+        </div>
+      </section>
+
+
+  <!--- AVANTAGES -->
+      <article class="container benefits-ctn">
+        <div class="benefits">
+          <!-- échantillons -->
+          <div class="samples">
+            <img src="image/icone-echantillon.svg" alt="icone avantages écchantillons">
+            <h4>2 échantillons offerts</h4>
+            <p class="paraph">Pour toute commande</p>
+          </div>
+          <!-- éco responsable -->
+          <div class="samples">
+            <img src="image/icone-eco.svg" alt="icone avantages éco responsable">
+            <h4>Eco responsable</h4>
+            <p class="paraph">0 déchet</p>
+          </div>
+          <!-- fidélité -->
+          <div class="samples">
+            <img src="image/icone-fidelite.svg" alt="icone avantages fidélité">
+            <h4>Fidélité récompensée</h4>
+            <p class="paraph" >Cumuler et recever des réductions</p>
+          </div>
+        </div>
+      </article>
+
+
+  <!--- NEWSLETTERs -->
+      <article class="newsletter">
+        <div class="container">
+
+          <form class="inscription">
+            <p>Des news d'Ecoco ? C'est dans la boîte mail !</p>
+            <label class="sr-only" for="newsletter"></label>
+            <input type="email" id="newsletter" name="newsletter" placeholder="email@exemple.com" required>
+            <input type="submit" value="Je m'inscris" class="btn btn-newsletter">
+          </form>
+
+        </div>
+      </article>
+      
+
+  <!--- FOOTER -->
+      <footer>
+
+        <div class="nav-footer container">
+          <div class="column-us"> <!--  collone 1 -->
+            <h5>Qui sommes-nous :</h5>
+            <ul>
+              <li><a class="paraph" href="#">Notre groupe Ecoco</a></li>
+              <li><a class="paraph" href="#">Nos engagements</a></li>
+            </ul>
+          </div>
+
+          <div class="column-faq"> <!--  collone 2 -->
+            <h5>Nos services :</h5>
+            <ul>
+              <li><a class="paraph" href="#">Aides & FAQ</a></li>
+              <li><a class="paraph" href="#">Contacts</a></li>
+              <li><a class="paraph" href="#">Paiements</a></li>
+            </ul>
+          </div>
+
+          <div class="column-info"> <!--  collone 3 -->
+            <h5>Information :</h5>
+            <ul>
+              <li><a class="paraph" href="#">Conditions générales de vente</a></li>
+              <li><a class="paraph" href="#">Conditions générales d'utilisation</a></li>
+              <li><a class="paraph" href="#">Mentions légales</a></li>
+            </ul>
+          </div>
+
+          <div class="column-icons"> <!--  collone 4 -->
+            <h5>Suivez-nous :</h5>
+            <a href="https://twitter.com/" target="_blank"><img src="image/icone-footer-twitter.png" alt="icone tweeter"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="image/icone-footer-instagram.png" alt="icone instagramm"></a>
+            <a href="https://fr-fr.facebook.com/" target="_blank"><img src="image/icone-footer-facebook.png" alt="icone facebook"></a>
+          </div>
+        </div>
+
+
+        <div class="footer-end">
+          <a href="#"><img class="logo" src="image/logo.png" alt="logo dans footer"></a>
+          <p class="paraph">&copy; 2020, Ecoco. Tous droits réservés.</p>
+        </div>
+
+      </footer>
+    </main>
+  </body>
+</html>
